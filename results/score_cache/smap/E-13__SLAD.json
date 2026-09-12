@@ -1,0 +1,29 @@
+{
+  "dataset": "smap",
+  "unit_id": "E-13",
+  "method": "SLAD",
+  "window": 60,
+  "stride": 30,
+  "cal_frac": 0.2,
+  "n_features_raw": 25,
+  "n_features_dropped": 6,
+  "dropped_feature_idx": [
+    8,
+    12,
+    15,
+    16,
+    23,
+    24
+  ],
+  "n_nan_in_scores": 0,
+  "n_inf_in_scores": 0,
+  "n_distinct_cal_scores": 35,
+  "score_min": 0.3718384802341461,
+  "score_max": 0.48277315497398376,
+  "score_orientation": "normal",
+  "detector_seed": 0,
+  "detector_version": "deepod",
+  "source_run": "extended_methods_cached_phase1",
+  "config_hash": "32ae9b23b739760b",
+  "written_utc": "2026-09-07T08:02:11Z"
+}
