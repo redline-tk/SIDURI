@@ -1,0 +1,1022 @@
+[
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Afternoon-DDos",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 2.86648701602318,
+    "delta_raw": 0.395637408568443,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Afternoon-DDos",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 0.5658035285166444,
+    "delta_raw": 0.29140543364681293,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Afternoon-DDos",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.00038505359593137575,
+    "delta_z": 1.101636867844464,
+    "delta_raw": 0.3154388714733542,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Afternoon-DDos",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.9623267932927696,
+    "delta_z": 3.465620709626783,
+    "delta_raw": 0.42920585161964475,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Afternoon-DDos",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 1.7244636679983987,
+    "delta_raw": 0.33764367816091945,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Afternoon-DDos",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 3.905191562903538,
+    "delta_raw": 0.4393939393939394,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Afternoon-PortScan",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 4.614020529693669,
+    "delta_raw": 0.4623824451410658,
+    "contam": 0.022857142857142857
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Afternoon-PortScan",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 0.5162328921462288,
+    "delta_z": 3.842310445785713,
+    "delta_raw": 0.43051201671891326,
+    "contam": 0.022857142857142857
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Afternoon-PortScan",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.9995793580883482,
+    "delta_z": 0.5152175323639053,
+    "delta_raw": 0.29140543364681293,
+    "contam": 0.022857142857142857
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Afternoon-PortScan",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.8884507491802522,
+    "delta_z": 3.3605948622198754,
+    "delta_raw": 0.41810344827586204,
+    "contam": 0.022857142857142857
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Afternoon-PortScan",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.9438197577581984,
+    "delta_z": 0.607313506363965,
+    "delta_raw": 0.2936259143155695,
+    "contam": 0.022857142857142857
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Afternoon-PortScan",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 0.3911676757068574,
+    "delta_z": 4.928145180182514,
+    "delta_raw": 0.4969958202716823,
+    "contam": 0.022857142857142857
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Morning",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 2.4842585254318265e-05,
+    "delta_z": 3.356668581324581,
+    "delta_raw": 0.4170585161964472,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Morning",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 0.01309278950920759,
+    "delta_z": 3.6925227640729266,
+    "delta_raw": 0.4286833855799373,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Morning",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.0683350483079652,
+    "delta_z": 4.338112788408176,
+    "delta_raw": 0.4632967607105538,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Morning",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.006990392832540954,
+    "delta_z": 1.4052835179704604,
+    "delta_raw": 0.32641065830721006,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Morning",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.0033442291576759775,
+    "delta_z": 1.6921755295749437,
+    "delta_raw": 0.3382967607105538,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Friday-WorkingHours-Morning",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 8.695182785430436e-05,
+    "delta_z": 2.9476718030518123,
+    "delta_raw": 0.39524555903866254,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Thursday-WorkingHours-Afternoon-Infilteration",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 0.9930295411482994,
+    "delta_z": -0.6933207822656707,
+    "delta_raw": 0.23393416927899685,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Thursday-WorkingHours-Afternoon-Infilteration",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 0.9190600482114836,
+    "delta_z": 0.5803760444287563,
+    "delta_raw": 0.2915360501567398,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Thursday-WorkingHours-Afternoon-Infilteration",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 1.1070651860616456,
+    "delta_raw": 0.31491640543364674,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Thursday-WorkingHours-Afternoon-Infilteration",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.9999960169902609,
+    "delta_z": 2.6834161505783345,
+    "delta_raw": 0.3833594566353186,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Thursday-WorkingHours-Afternoon-Infilteration",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.999996446231615,
+    "delta_z": 0.8914361639883949,
+    "delta_raw": 0.30407523510971785,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Thursday-WorkingHours-Afternoon-Infilteration",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 0.9996153637899902,
+    "delta_z": 3.4214276601599862,
+    "delta_raw": 0.41771159874608155,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Thursday-WorkingHours-Morning-WebAttacks",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 1.0516868740836475e-06,
+    "delta_z": 6.675092519811592,
+    "delta_raw": 0.5771943573667712,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Thursday-WorkingHours-Morning-WebAttacks",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 0.015517562842046457,
+    "delta_z": 5.558919476032224,
+    "delta_raw": 0.5207680250783698,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Thursday-WorkingHours-Morning-WebAttacks",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.015878216656277866,
+    "delta_z": 3.5115402372993407,
+    "delta_raw": 0.41718913270637403,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Thursday-WorkingHours-Morning-WebAttacks",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.13564352932810222,
+    "delta_z": 5.5328699957609455,
+    "delta_raw": 0.5313479623824452,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Thursday-WorkingHours-Morning-WebAttacks",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.002893184887605803,
+    "delta_z": 3.157656937426421,
+    "delta_raw": 0.4070010449320794,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Thursday-WorkingHours-Morning-WebAttacks",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 0.001920814941984515,
+    "delta_z": 5.41469644227564,
+    "delta_raw": 0.5086206896551724,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Tuesday-WorkingHours",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 0.9662317366061471,
+    "delta_z": 1.358065622111632,
+    "delta_raw": 0.3261494252873563,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Tuesday-WorkingHours",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 5.533992459595663e-06,
+    "delta_z": 2.6743701019626,
+    "delta_raw": 0.38349007314524564,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Tuesday-WorkingHours",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.00011780243493107749,
+    "delta_z": 1.0821027805168628,
+    "delta_raw": 0.31491640543364685,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Tuesday-WorkingHours",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.00040297161275015266,
+    "delta_z": 3.6661544303843714,
+    "delta_raw": 0.42868338557993724,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Tuesday-WorkingHours",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 3.389175808463694e-08,
+    "delta_z": 3.666037525622644,
+    "delta_raw": 0.42789968652037613,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Tuesday-WorkingHours",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 2.0817156649633597e-08,
+    "delta_z": 1.5642568133409824,
+    "delta_raw": 0.3377742946708463,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Wednesday-workingHours",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 6.831205350160325e-08,
+    "delta_z": 2.0451554146905173,
+    "delta_raw": 0.3589341692789969,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Wednesday-workingHours",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 3.018256713838966e-14,
+    "delta_z": 4.745975074031712,
+    "delta_raw": 0.4737460815047022,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Wednesday-workingHours",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.03556244746445361,
+    "delta_z": 2.007407864699601,
+    "delta_raw": 0.36050156739811906,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Wednesday-workingHours",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 4.278615261907829e-09,
+    "delta_z": 2.666211407712315,
+    "delta_raw": 0.3827063740856844,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Wednesday-workingHours",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 9.920338985032478e-10,
+    "delta_z": 2.718448541839905,
+    "delta_raw": 0.384012539184953,
+    "contam": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "unit": "Wednesday-workingHours",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 3.425102360807038e-14,
+    "delta_z": 4.228636470486754,
+    "delta_raw": 0.4508881922675026,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-1-1",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 0.6334120100208213,
+    "delta_z": 3.4173497360129006,
+    "delta_raw": 0.41836468129571575,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-1-1",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 0.9851557900505293,
+    "delta_z": -0.4038730445108243,
+    "delta_raw": 0.24660397074190177,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-1-1",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.9999999999999681,
+    "delta_z": 3.416849555326379,
+    "delta_raw": 0.4173197492163009,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-1-1",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.9999999999999681,
+    "delta_z": 0.6458068550863277,
+    "delta_raw": 0.29127481713688613,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-1-1",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.9950526548691206,
+    "delta_z": 4.130708934455058,
+    "delta_raw": 0.4512800417972832,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-1-1",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 0.975489536890131,
+    "delta_z": 3.0014955088747626,
+    "delta_raw": 0.3948537095088819,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-2-6",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 0.9999990034054687,
+    "delta_z": 0.8497901501794447,
+    "delta_raw": 0.3034221525600836,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-2-6",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 0.9967508190265678,
+    "delta_z": 0.8073470849440977,
+    "delta_raw": 0.3018547544409613,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-2-6",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.9999991779358643,
+    "delta_z": 5.630950691150109,
+    "delta_raw": 0.5206374085684431,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-2-6",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.9999999920271463,
+    "delta_z": 3.4016700989769872,
+    "delta_raw": 0.4158829676071055,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-2-6",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.9999963596081226,
+    "delta_z": 4.571489069394071,
+    "delta_raw": 0.4629049111807732,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-2-6",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 0.9999990866433615,
+    "delta_z": 2.1399039024644977,
+    "delta_raw": 0.3591954022988505,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-2-9",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 0.009620467608049717,
+    "delta_z": 6.0519079562127605,
+    "delta_raw": 0.530564263322884,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-2-9",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 0.9999999728812258,
+    "delta_z": 1.3293850785907853,
+    "delta_raw": 0.32575757575757575,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-2-9",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.9678777103006271,
+    "delta_z": 1.0949232306241408,
+    "delta_raw": 0.3147857889237199,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-2-9",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.9999999999938742,
+    "delta_z": 0.7674943522530956,
+    "delta_raw": 0.3042058516196447,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-2-9",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.9999587357059642,
+    "delta_z": 2.999634089233162,
+    "delta_raw": 0.39472309299895497,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-2-9",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 0.9999999999996674,
+    "delta_z": 6.187482180717274,
+    "delta_raw": 0.5434952978056425,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-11",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 0.9999999999997331,
+    "delta_z": 2.23415467183538,
+    "delta_raw": 0.36050156739811906,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-11",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 0.9999999999997331,
+    "delta_z": -1.5453227783609789,
+    "delta_raw": 0.20049634273772204,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-11",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.0011658581372360238,
+    "delta_z": 0.14311597245229138,
+    "delta_raw": 0.27024555903866243,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-11",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.9999999999997331,
+    "delta_z": 5.323255237386983,
+    "delta_raw": 0.508098223615465,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-11",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.999999999999733,
+    "delta_z": -0.6601238513821427,
+    "delta_raw": 0.23602403343782652,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-11",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 0.9999999999997331,
+    "delta_z": 2.1001624544019286,
+    "delta_raw": 0.35997910135841166,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-1",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 0.9349748964581159,
+    "delta_z": 2.4310579314533998,
+    "delta_raw": 0.3726489028213166,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-1",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 0.9999943313784485,
+    "delta_z": 2.6139156469634073,
+    "delta_raw": 0.3845350052246603,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-1",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.9999999999995938,
+    "delta_z": 3.7865912526650867,
+    "delta_raw": 0.44043887147335425,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-1",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.9999999999995937,
+    "delta_z": 0.43600282788114253,
+    "delta_raw": 0.28160919540229884,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-1",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.9999421731619947,
+    "delta_z": 1.695067434854945,
+    "delta_raw": 0.3371212121212121,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-1",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 0.9999503724366262,
+    "delta_z": 1.3276709073271848,
+    "delta_raw": 0.3257575757575758,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-6",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 0.27180271341946194,
+    "delta_z": 3.3458305264057073,
+    "delta_raw": 0.41771159874608144,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-6",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 0.03158490966448681,
+    "delta_z": 0.30871317530856485,
+    "delta_raw": 0.28056426332288403,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-6",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.9999703832847534,
+    "delta_z": 2.6678518672924376,
+    "delta_raw": 0.38349007314524547,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-6",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.999999999969836,
+    "delta_z": 2.195852348441098,
+    "delta_raw": 0.3601097178683385,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-6",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.03712399891643203,
+    "delta_z": 0.8695670745347266,
+    "delta_raw": 0.3036833855799373,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-6",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 0.8603234750021869,
+    "delta_z": 1.6703397276164094,
+    "delta_raw": 0.33699059561128525,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-7",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 0.10036613029984207,
+    "delta_z": 2.4177251629135195,
+    "delta_raw": 0.37160397074190177,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-7",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 0.20370991595033944,
+    "delta_raw": 0.269723092998955,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-7",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 2.4837903337958753,
+    "delta_raw": 0.3725182863113897,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-7",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 1.6270133928719939,
+    "delta_raw": 0.3356844305120167,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-7",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.9999999999987236,
+    "delta_z": 0.8556397837165352,
+    "delta_raw": 0.3032915360501567,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-7",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 2.0118936087132995,
+    "delta_raw": 0.36010971786833856,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-8",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 0.0017545499377871828,
+    "delta_z": 2.8449670289510416,
+    "delta_raw": 0.39367816091954017,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-8",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 1.708209397541164,
+    "delta_raw": 0.33829676071055376,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-8",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 1.868202080463579,
+    "delta_raw": 0.34730929989550674,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-8",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.9999999997001943,
+    "delta_z": 3.397291986302682,
+    "delta_raw": 0.41705851619644724,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-8",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.7186696145791083,
+    "delta_z": 2.215347087725118,
+    "delta_raw": 0.35932601880877746,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-8",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 1.0,
+    "delta_z": 0.9004773827892716,
+    "delta_raw": 0.30459770114942525,
+    "contam": 0.0
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-9",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 0.9999577491607854,
+    "delta_z": 0.8538105664513136,
+    "delta_raw": 0.30342215256008354,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-9",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 0.9999999998353593,
+    "delta_z": 2.6754715912599636,
+    "delta_raw": 0.38349007314524547,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-9",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 0.9999999999993376,
+    "delta_z": 1.1368454271617905,
+    "delta_raw": 0.3137408568443051,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-9",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.9999999999993379,
+    "delta_z": 1.5852379941045867,
+    "delta_raw": 0.33803552769070006,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-9",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.9999999999958034,
+    "delta_z": -0.2213824958851407,
+    "delta_raw": 0.25666144200626956,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "smd",
+    "unit": "machine-3-9",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 0.999999999990401,
+    "delta_z": 4.2630432443295625,
+    "delta_raw": 0.4520637408568443,
+    "contam": 0.017142857142857144
+  },
+  {
+    "dataset": "unsw_nb15",
+    "unit": "unsw_nb15",
+    "method": "DIF",
+    "m_eff": 175,
+    "u": 0.5384777433705153,
+    "delta_z": 4.494638348952642,
+    "delta_raw": 0.46290491118077326,
+    "contam": 0.96
+  },
+  {
+    "dataset": "unsw_nb15",
+    "unit": "unsw_nb15",
+    "method": "GOAD",
+    "m_eff": 175,
+    "u": 0.9787276597871244,
+    "delta_z": 1.9736198213394378,
+    "delta_raw": 0.3493991640543365,
+    "contam": 0.96
+  },
+  {
+    "dataset": "unsw_nb15",
+    "unit": "unsw_nb15",
+    "method": "ICL",
+    "m_eff": 175,
+    "u": 9.108125016072857e-06,
+    "delta_z": 1.8124155478927193,
+    "delta_raw": 0.3484848484848484,
+    "contam": 0.96
+  },
+  {
+    "dataset": "unsw_nb15",
+    "unit": "unsw_nb15",
+    "method": "NeuTraL",
+    "m_eff": 175,
+    "u": 0.04394310606610408,
+    "delta_z": 5.4431473731862265,
+    "delta_raw": 0.5079676071055382,
+    "contam": 0.96
+  },
+  {
+    "dataset": "unsw_nb15",
+    "unit": "unsw_nb15",
+    "method": "RDP",
+    "m_eff": 175,
+    "u": 0.010994292472216465,
+    "delta_z": 2.6579712366573474,
+    "delta_raw": 0.3834900731452455,
+    "contam": 0.96
+  },
+  {
+    "dataset": "unsw_nb15",
+    "unit": "unsw_nb15",
+    "method": "SLAD",
+    "m_eff": 175,
+    "u": 2.2855153446205087e-05,
+    "delta_z": 1.7006655391213443,
+    "delta_raw": 0.3371212121212121,
+    "contam": 0.96
+  }
+]
