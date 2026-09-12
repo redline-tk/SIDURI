@@ -1,0 +1,33 @@
+{
+  "dataset": "smd",
+  "unit_id": "machine-3-5",
+  "method": "SLAD",
+  "window": 60,
+  "stride": 30,
+  "cal_frac": 0.2,
+  "n_features_raw": 38,
+  "n_features_dropped": 10,
+  "dropped_feature_idx": [
+    4,
+    7,
+    26,
+    28,
+    29,
+    31,
+    34,
+    35,
+    36,
+    37
+  ],
+  "n_nan_in_scores": 0,
+  "n_inf_in_scores": 0,
+  "n_distinct_cal_scores": 100,
+  "score_min": 0.4644443392753601,
+  "score_max": 0.48629456758499146,
+  "score_orientation": "normal",
+  "detector_seed": 0,
+  "detector_version": "deepod",
+  "source_run": "extended_methods_cached_phase1",
+  "config_hash": "82676c3dab45b7e0",
+  "written_utc": "2026-08-22T16:23:54Z"
+}
