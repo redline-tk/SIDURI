@@ -1,0 +1,171 @@
+2026-08-24 18:40:21,938 | WARNING |     GOAD/machine-2-2: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+2026-08-25 11:45:37,832 | WARNING |     ICL/machine-3-4: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+Loaded 28 SMD units. Training at epochs=250 (converged, vs original 50).
+Unit: machine-1-1
+  GOAD/machine-1-1: cached=True
+  NeuTraL/machine-1-1: cached=True
+  SLAD/machine-1-1: cached=True
+  RDP/machine-1-1: cached=True
+  ICL/machine-1-1: cached=True
+Unit: machine-1-2
+  GOAD/machine-1-2: cached=True
+  NeuTraL/machine-1-2: cached=True
+  SLAD/machine-1-2: cached=True
+  RDP/machine-1-2: cached=True
+  ICL/machine-1-2: cached=True
+Unit: machine-1-3
+  GOAD/machine-1-3: cached=True
+  NeuTraL/machine-1-3: cached=True
+  SLAD/machine-1-3: cached=True
+  RDP/machine-1-3: cached=True
+  ICL/machine-1-3: cached=True
+Unit: machine-1-4
+  GOAD/machine-1-4: cached=True
+  NeuTraL/machine-1-4: cached=True
+  SLAD/machine-1-4: cached=True
+  RDP/machine-1-4: cached=True
+  ICL/machine-1-4: cached=True
+Unit: machine-1-5
+  GOAD/machine-1-5: cached=True
+  NeuTraL/machine-1-5: cached=True
+  SLAD/machine-1-5: cached=True
+  RDP/machine-1-5: cached=True
+  ICL/machine-1-5: cached=True
+Unit: machine-1-6
+  GOAD/machine-1-6: cached=True
+  NeuTraL/machine-1-6: cached=True
+  SLAD/machine-1-6: cached=True
+  RDP/machine-1-6: cached=True
+  ICL/machine-1-6: cached=True
+Unit: machine-1-7
+  GOAD/machine-1-7: cached=True
+  NeuTraL/machine-1-7: cached=True
+  SLAD/machine-1-7: cached=True
+  RDP/machine-1-7: cached=True
+  ICL/machine-1-7: cached=True
+Unit: machine-1-8
+  GOAD/machine-1-8: cached=True
+  NeuTraL/machine-1-8: cached=True
+  SLAD/machine-1-8: cached=True
+  RDP/machine-1-8: cached=True
+  ICL/machine-1-8: cached=True
+Unit: machine-2-1
+  GOAD/machine-2-1: cached=True
+  NeuTraL/machine-2-1: cached=True
+  SLAD/machine-2-1: cached=True
+  RDP/machine-2-1: cached=True
+  ICL/machine-2-1: cached=True
+Unit: machine-2-2
+  GOAD/machine-2-2: cached=True
+  NeuTraL/machine-2-2: cached=True
+  SLAD/machine-2-2: cached=True
+  RDP/machine-2-2: cached=True
+  ICL/machine-2-2: cached=True
+Unit: machine-2-3
+  GOAD/machine-2-3: cached=True
+  NeuTraL/machine-2-3: cached=True
+  SLAD/machine-2-3: cached=True
+  RDP/machine-2-3: cached=True
+  ICL/machine-2-3: cached=True
+Unit: machine-2-4
+  GOAD/machine-2-4: cached=True
+  NeuTraL/machine-2-4: cached=True
+  SLAD/machine-2-4: cached=True
+  RDP/machine-2-4: cached=True
+  ICL/machine-2-4: cached=True
+Unit: machine-2-5
+  GOAD/machine-2-5: cached=True
+  NeuTraL/machine-2-5: cached=True
+  SLAD/machine-2-5: cached=True
+  RDP/machine-2-5: cached=True
+  ICL/machine-2-5: cached=True
+Unit: machine-2-6
+  GOAD/machine-2-6: cached=True
+  NeuTraL/machine-2-6: cached=True
+  SLAD/machine-2-6: cached=True
+  RDP/machine-2-6: cached=True
+  ICL/machine-2-6: cached=True
+Unit: machine-2-7
+  GOAD/machine-2-7: cached=True
+  NeuTraL/machine-2-7: cached=True
+  SLAD/machine-2-7: cached=True
+  RDP/machine-2-7: cached=True
+  ICL/machine-2-7: cached=True
+Unit: machine-2-8
+  GOAD/machine-2-8: cached=True
+  NeuTraL/machine-2-8: cached=True
+  SLAD/machine-2-8: cached=True
+  RDP/machine-2-8: cached=True
+  ICL/machine-2-8: cached=True
+Unit: machine-2-9
+  GOAD/machine-2-9: cached=True
+  NeuTraL/machine-2-9: cached=True
+  SLAD/machine-2-9: cached=True
+  RDP/machine-2-9: cached=True
+  ICL/machine-2-9: cached=True
+Unit: machine-3-1
+  GOAD/machine-3-1: cached=True
+  NeuTraL/machine-3-1: cached=True
+  SLAD/machine-3-1: cached=True
+  RDP/machine-3-1: cached=True
+  ICL/machine-3-1: cached=True
+Unit: machine-3-10
+  GOAD/machine-3-10: cached=True
+  NeuTraL/machine-3-10: cached=True
+  SLAD/machine-3-10: cached=True
+  RDP/machine-3-10: cached=True
+  ICL/machine-3-10: cached=True
+Unit: machine-3-11
+  GOAD/machine-3-11: cached=True
+  NeuTraL/machine-3-11: cached=True
+  SLAD/machine-3-11: cached=True
+  RDP/machine-3-11: cached=True
+  ICL/machine-3-11: cached=True
+Unit: machine-3-2
+  GOAD/machine-3-2: cached=True
+  NeuTraL/machine-3-2: cached=True
+  SLAD/machine-3-2: cached=True
+  RDP/machine-3-2: cached=True
+  ICL/machine-3-2: cached=True
+Unit: machine-3-3
+  GOAD/machine-3-3: cached=True
+  NeuTraL/machine-3-3: cached=True
+  SLAD/machine-3-3: cached=True
+  RDP/machine-3-3: cached=True
+  ICL/machine-3-3: cached=True
+Unit: machine-3-4
+  GOAD/machine-3-4: cached=True
+  NeuTraL/machine-3-4: cached=True
+  SLAD/machine-3-4: cached=True
+  RDP/machine-3-4: cached=True
+  ICL/machine-3-4: cached=True
+Unit: machine-3-5
+  GOAD/machine-3-5: cached=True
+  NeuTraL/machine-3-5: cached=True
+  SLAD/machine-3-5: cached=True
+  RDP/machine-3-5: cached=True
+  ICL/machine-3-5: cached=True
+Unit: machine-3-6
+  GOAD/machine-3-6: cached=True
+  NeuTraL/machine-3-6: cached=True
+  SLAD/machine-3-6: cached=True
+  RDP/machine-3-6: cached=True
+  ICL/machine-3-6: cached=True
+Unit: machine-3-7
+  GOAD/machine-3-7: cached=True
+  NeuTraL/machine-3-7: cached=True
+  SLAD/machine-3-7: cached=True
+  RDP/machine-3-7: cached=True
+  ICL/machine-3-7: cached=True
+Unit: machine-3-8
+  GOAD/machine-3-8: cached=True
+  NeuTraL/machine-3-8: cached=True
+  SLAD/machine-3-8: cached=True
+  RDP/machine-3-8: cached=True
+  ICL/machine-3-8: cached=True
+Unit: machine-3-9
+  GOAD/machine-3-9: cached=True
+  NeuTraL/machine-3-9: cached=True
+  SLAD/machine-3-9: cached=True
+  RDP/machine-3-9: cached=True
+  ICL/machine-3-9: cached=True
