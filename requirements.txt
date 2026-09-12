@@ -1,0 +1,7 @@
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+matplotlib==3.10.9
+scikit-learn==1.7.2
+torch==2.5.1+cu124
+deepod==0.4.1
