@@ -1,0 +1,33 @@
+{
+  "dataset": "cicids2017",
+  "unit_id": "Friday-WorkingHours-Afternoon-DDos",
+  "method": "RDP",
+  "window": 60,
+  "stride": 30,
+  "cal_frac": 0.2,
+  "n_features_raw": 77,
+  "n_features_dropped": 10,
+  "dropped_feature_idx": [
+    30,
+    31,
+    32,
+    48,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "n_nan_in_scores": 0,
+  "n_inf_in_scores": 0,
+  "n_distinct_cal_scores": 1054,
+  "score_min": 5.911081643716898e-06,
+  "score_max": 0.012264122255146503,
+  "score_orientation": "flipped",
+  "detector_seed": 0,
+  "detector_version": "deepod",
+  "source_run": "extended_methods_cached_phase1",
+  "config_hash": "827455e1d85b3979",
+  "written_utc": "2026-08-23T00:02:05Z"
+}
