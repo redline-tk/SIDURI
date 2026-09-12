@@ -1,0 +1,29 @@
+{
+  "dataset": "smap",
+  "unit_id": "D-4",
+  "method": "NeuTraL",
+  "window": 60,
+  "stride": 30,
+  "cal_frac": 0.2,
+  "n_features_raw": 25,
+  "n_features_dropped": 6,
+  "dropped_feature_idx": [
+    10,
+    12,
+    15,
+    16,
+    23,
+    24
+  ],
+  "n_nan_in_scores": 0,
+  "n_inf_in_scores": 0,
+  "n_distinct_cal_scores": 25,
+  "score_min": 0.1340377926826477,
+  "score_max": 0.25808313488960266,
+  "score_orientation": "normal",
+  "detector_seed": 0,
+  "detector_version": "deepod",
+  "source_run": "extended_methods_cached_phase1",
+  "config_hash": "200492ff8451a34c",
+  "written_utc": "2026-09-07T07:39:54Z"
+}
