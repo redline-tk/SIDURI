@@ -1,0 +1,31 @@
+{
+  "dataset": "smap",
+  "unit_id": "F-1",
+  "method": "ICL",
+  "window": 60,
+  "stride": 30,
+  "cal_frac": 0.2,
+  "n_features_raw": 25,
+  "n_features_dropped": 8,
+  "dropped_feature_idx": [
+    4,
+    10,
+    12,
+    15,
+    16,
+    20,
+    23,
+    24
+  ],
+  "n_nan_in_scores": 0,
+  "n_inf_in_scores": 0,
+  "n_distinct_cal_scores": 39,
+  "score_min": 252.67440795898438,
+  "score_max": 375.0330352783203,
+  "score_orientation": "flipped",
+  "detector_seed": 0,
+  "detector_version": "deepod",
+  "source_run": "extended_methods_cached_phase1",
+  "config_hash": "8a4667737ee634fa",
+  "written_utc": "2026-09-07T08:23:18Z"
+}
