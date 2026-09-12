@@ -1,0 +1,29 @@
+{
+  "dataset": "smd_converged",
+  "unit_id": "machine-3-2",
+  "method": "ICL",
+  "window": 60,
+  "stride": 30,
+  "cal_frac": 0.2,
+  "n_features_raw": 38,
+  "n_features_dropped": 6,
+  "dropped_feature_idx": [
+    4,
+    7,
+    26,
+    28,
+    36,
+    37
+  ],
+  "n_nan_in_scores": 0,
+  "n_inf_in_scores": 0,
+  "n_distinct_cal_scores": 103,
+  "score_min": 4.136507630348206,
+  "score_max": 261.45357513427734,
+  "score_orientation": "normal",
+  "detector_seed": 0,
+  "detector_version": "deepod",
+  "source_run": "extended_methods_cached_phase1",
+  "config_hash": "d5440feb452e3098",
+  "written_utc": "2026-08-25T09:38:38Z"
+}
