@@ -1,0 +1,22 @@
+{
+  "dataset": "cicids2017",
+  "unit_id": "Wednesday-workingHours",
+  "method": "DIF",
+  "window": 60,
+  "stride": 30,
+  "cal_frac": 0.2,
+  "n_features_raw": null,
+  "n_features_dropped": 0,
+  "dropped_feature_idx": [],
+  "n_nan_in_scores": 0,
+  "n_inf_in_scores": 0,
+  "n_distinct_cal_scores": 3049,
+  "score_min": 0.2673597516101064,
+  "score_max": 0.4798598869816996,
+  "score_orientation": "normal",
+  "detector_seed": 0,
+  "detector_version": "deepod",
+  "source_run": "extended_methods_cached_phase1",
+  "config_hash": "fc0f369d5eb6c2ba",
+  "written_utc": "2026-08-23T23:35:02Z"
+}
