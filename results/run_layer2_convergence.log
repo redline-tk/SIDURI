@@ -1,0 +1,43 @@
+Sampled 20 weak units (orig AUROC<0.6) + 5 strong controls (orig AUROC>=0.7)
+  [WEAK] SLAD/E-2: old=0.5307 new=0.5402 delta=+0.0095
+  [WEAK] ICL/T-12: old=0.3596 new=0.5052 delta=+0.1456
+2026-08-26 07:30:20,809 | WARNING |     SLAD/E-4: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+  [WEAK] SLAD/E-4: old=0.3356 new=0.3421 delta=+0.0064
+  [WEAK] NeuTraL/E-8: old=0.5605 new=0.6799 delta=+0.1194
+2026-08-26 07:33:23,032 | WARNING |     GOAD/A-4: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+  [WEAK] GOAD/A-4: old=0.4299 new=0.2302 delta=-0.1997
+2026-08-26 07:34:29,902 | WARNING |     GOAD/T-1: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+  [WEAK] GOAD/T-1: old=0.4738 new=0.3976 delta=-0.0762
+2026-08-26 07:39:10,626 | WARNING |     ICL/D-6: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+  [WEAK] ICL/D-6: old=0.4569 new=0.4382 delta=-0.0187
+  [WEAK] GOAD/P-7: old=0.5841 new=0.3708 delta=-0.2133
+2026-08-26 07:41:33,335 | WARNING |     GOAD/E-13: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+  [WEAK] GOAD/E-13: old=0.4731 new=0.4696 delta=-0.0035
+2026-08-26 07:43:40,616 | WARNING |     NeuTraL/F-8: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+  [WEAK] NeuTraL/F-8: old=0.4965 new=0.5884 delta=+0.0919
+2026-08-26 07:44:30,169 | WARNING |     RDP/G-1: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+  [WEAK] RDP/G-1: old=0.2768 new=0.2429 delta=-0.0339
+  [WEAK] SLAD/C-1: old=0.5690 new=0.5064 delta=-0.0627
+  [WEAK] SLAD/P-7: old=0.5945 new=0.4701 delta=-0.1245
+2026-08-26 07:49:16,719 | WARNING |     RDP/A-7: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+  [WEAK] RDP/A-7: old=0.0101 new=0.5252 delta=+0.5151
+  [WEAK] ICL/G-6: old=0.4527 new=0.7143 delta=+0.2616
+2026-08-26 07:55:53,980 | WARNING |     GOAD/E-4: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+  [WEAK] GOAD/E-4: old=0.1421 new=0.2257 delta=+0.0836
+  [WEAK] NeuTraL/P-4: old=0.5000 new=0.5000 delta=+0.0000
+2026-08-26 07:58:28,927 | WARNING |     RDP/S-1: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+  [WEAK] RDP/S-1: old=0.4357 new=0.6947 delta=+0.2590
+  [WEAK] GOAD/D-8: old=0.5000 new=0.5000 delta=+0.0000
+2026-08-26 08:01:33,241 | WARNING |     ICL/A-8: AUROC < 0.5, flagged score_orientation=flipped, NOT negated
+  [WEAK] ICL/A-8: old=0.0425 new=0.0315 delta=-0.0109
+  [STRONG] GOAD/A-6: old=1.0000 new=0.7777 delta=-0.2223
+  [STRONG] NeuTraL/A-6: old=1.0000 new=0.7835 delta=-0.2165
+  [STRONG] RDP/A-6: old=1.0000 new=0.8955 delta=-0.1045
+  [STRONG] RDP/A-9: old=1.0000 new=0.9995 delta=-0.0005
+  [STRONG] SLAD/D-5: old=1.0000 new=0.5154 delta=-0.4846
+
+=== SUMMARY ===
+WEAK units (n=20): mean_delta=0.0374  n_rose_materially(>0.2)=3/20
+STRONG controls (n=5): mean_delta=-0.2057 (should be near 0)
+
+VERDICT: WEAK UNITS STAYED WEAK. Benchmark-quality retraction HOLDS.
