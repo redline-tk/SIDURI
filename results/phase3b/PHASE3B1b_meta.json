@@ -1,0 +1,19 @@
+{
+  "seed": 20260721,
+  "n_perm": 1000,
+  "eps": 0.05,
+  "delta": 0.1,
+  "m_fixed": 175,
+  "m_min": 45,
+  "min_per_decile": 30,
+  "backend": "LOCAL",
+  "backend_msg": "gate-verified split_conformal_threshold NOT importable, using local order-statistic construction",
+  "cluster_span_ratio": 2.0,
+  "exclusions": {
+    "no_eval_window_start": 118,
+    "too_few_normals": 185,
+    "all_zero_fpr": 107,
+    "all_one_fpr": 1,
+    "cal_lt_10": 10
+  }
+}
