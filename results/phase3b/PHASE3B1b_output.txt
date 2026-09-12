@@ -1,0 +1,136 @@
+==============================================================================
+PHASE 3B.1b -- DECAY CURVE WITH FOUR CHECKS
+==============================================================================
+threshold backend: LOCAL
+  gate-verified split_conformal_threshold NOT importable, using local order-statistic construction
+M_min(eps=0.05, delta=0.10) = 45  -- units below this are flagged non-certifiable
+
+==============================================================================
+CHECK 4 -- EXCLUSION AUDIT
+==============================================================================
+included=272  excluded=421  total=693
+
+  reason breakdown (pooled):
+    too_few_normals          185
+    no_eval_window_start     118
+    all_zero_fpr             107
+    cal_lt_10                10
+    all_one_fpr              1
+
+  all_zero_fpr by dataset (selection-on-outcome risk;
+  cross-reference against CHECK 5 -- a contaminated cal set inflates tau,
+  which suppresses ALL firing and shows up here as mass all_zero exclusions):
+    batadal        all_zero=0    of 6    excluded
+    cicids2017     all_zero=0    of 7    excluded
+    msl            all_zero=0    of 42   excluded
+    smap           all_zero=101  of 331  excluded
+    smd            all_zero=6    of 34   excluded
+    unsw_nb15      all_zero=0    of 1    excluded
+
+==============================================================================
+PRIMARY RESULT -- cal[-175:] (RECENCY-CORRECTED), per dataset
+==============================================================================
+  cicids2017     n=35   median_rho=-0.3161  wilcoxon_p=0.009887  n_pos=8    n_neg=27  
+  smap           n=98   median_rho=-0.1329  wilcoxon_p=0.158009  n_pos=34   n_neg=51  
+  smd            n=134  median_rho=+0.3684  wilcoxon_p=0.000000  n_pos=98   n_neg=36  
+  unsw_nb15      n=5    median_rho=-0.1741  wilcoxon_p=0.812500  n_pos=2    n_neg=3   
+
+  certifiable units only (m_eff >= 45):
+  cicids2017     n=35   median_rho=-0.3161  wilcoxon_p=0.009887  n_pos=8    n_neg=27  
+  smap           n=88   median_rho=-0.2236  wilcoxon_p=0.000212  n_pos=24   n_neg=51  
+  smd            n=134  median_rho=+0.3684  wilcoxon_p=0.000000  n_pos=98   n_neg=36  
+  unsw_nb15      n=5    median_rho=-0.1741  wilcoxon_p=0.812500  n_pos=2    n_neg=3   
+
+  untied units only (n_distinct/m_eff >= 0.9):
+  cicids2017     n=0    too few
+  smap           n=0    too few
+  smd            n=0    too few
+  unsw_nb15      n=0    too few
+
+==============================================================================
+DATASET x METHOD (per-method pooling across datasets is uninterpretable)
+==============================================================================
+  cicids2017:
+    GOAD           n=7    median_rho=-0.2988  wilcoxon_p=0.296875  n_pos=2    n_neg=5   
+    ICL            n=7    median_rho=-0.1402  wilcoxon_p=0.687500  n_pos=2    n_neg=5   
+    NeuTraL        n=7    median_rho=-0.1636  wilcoxon_p=0.296875  n_pos=1    n_neg=6   
+    RDP            n=7    median_rho=-0.4268  wilcoxon_p=0.218750  n_pos=1    n_neg=6   
+    SLAD           n=7    median_rho=-0.3161  wilcoxon_p=0.156250  n_pos=2    n_neg=5   
+  smap:
+    GOAD           n=21   median_rho=+0.0000  wilcoxon_p=0.326685  n_pos=8    n_neg=10  
+    ICL            n=21   median_rho=-0.6669  wilcoxon_p=0.053417  n_pos=5    n_neg=16  
+    NeuTraL        n=15   median_rho=-0.3536  wilcoxon_p=0.550533  n_pos=5    n_neg=10  
+    RDP            n=20   median_rho=+0.0000  wilcoxon_p=0.874739  n_pos=6    n_neg=8   
+    SLAD           n=21   median_rho=+0.0000  wilcoxon_p=0.286287  n_pos=10   n_neg=7   
+  smd:
+    GOAD           n=26   median_rho=+0.1766  wilcoxon_p=0.038168  n_pos=18   n_neg=8   
+    ICL            n=28   median_rho=+0.5136  wilcoxon_p=0.001555  n_pos=19   n_neg=9   
+    NeuTraL        n=27   median_rho=+0.5714  wilcoxon_p=0.001253  n_pos=21   n_neg=6   
+    RDP            n=27   median_rho=+0.2471  wilcoxon_p=0.004232  n_pos=20   n_neg=7   
+    SLAD           n=26   median_rho=+0.3313  wilcoxon_p=0.003551  n_pos=20   n_neg=6   
+  unsw_nb15:
+    GOAD           n=1    too few
+    ICL            n=1    too few
+    NeuTraL        n=1    too few
+    RDP            n=1    too few
+    SLAD           n=1    too few
+
+==============================================================================
+CHECK 1 -- RECENCY ARTIFACT: cal[:175] (first) vs cal[-175:] (last)
+==============================================================================
+units in both passes: 270  (first-only=0, last-only=2)
+
+  dataset        n      median_first median_last  median_delta
+  cicids2017     33     -0.2988      -0.3161      +0.0038   
+  smap           98     -0.1329      -0.1329      +0.0000   
+  smd            134    +0.3313      +0.3684      +0.0000   
+  unsw_nb15      5      -0.1741      -0.1741      +0.0000   
+
+  VERDICT RULE: if median_last collapses toward 0 on SMD while median_first is +0.33,
+  the decay slope was an artifact of using a STALE calibration slice, not drift.
+
+==============================================================================
+CHECK 2 -- TEMPORAL PERMUTATION NULL (1000 perms, seed=20260721)
+==============================================================================
+  dataset        n      obs_median  null_median_95pct_CI     p_emp   
+  cicids2017     35     -0.3161     [-0.1758, +0.1273]       0.00100 
+  smap           98     -0.1329     [-0.2236, +0.0520]       0.32468 
+  smd            134    +0.3684     [-0.1008, +0.0528]       0.00100 
+  unsw_nb15      5      -0.1741     [-0.3554, +0.3329]       0.39061 
+
+  per-unit permutation p < 0.05 (expected 5% under the null):
+    cicids2017     9/35 (25.7%)
+    smap           9/98 (9.2%)
+    smd            50/134 (37.3%)
+    unsw_nb15      2/5 (40.0%)
+
+==============================================================================
+CHECK 3 -- ANOMALY-CLUSTERING GUARD (span ratio + normal-window coverage of eval)
+==============================================================================
+  dataset        n     n_flag    med_span_r med_cover  med_tail  median_rho flag/clean   
+  cicids2017     35    5         1.005      0.999      0.000     -0.2561 / -0.3283
+  smap           98    1         1.025      1.000      0.000     n/a / -0.1539
+  smd            134   0         1.045      1.000      0.000     n/a / +0.3684
+  unsw_nb15      5     0         1.008      0.895      0.000     n/a / -0.1741
+
+  med_cover = fraction of the eval time range spanned by NORMAL windows.
+  med_tail  = fraction of the eval range after the LAST normal window.
+  Low coverage or a large tail gap means the decay curve is TRUNCATED: the late
+  deciles never reach the end of eval, so the drift axis is short. If flagged and
+  clean medians differ materially, report the clean subset as primary.
+
+==============================================================================
+CHECK 5 -- CALIBRATION-PERIOD ANOMALY CONTAMINATION (Branch C mandate)
+==============================================================================
+  dataset        n      mean_cal_rate max_cal_rate frac_units>1% 
+  batadal        6      0.0000       0.0000       0.000         
+  cicids2017     42     0.2821       0.6355       0.714         
+  msl            42     0.0000       0.0000       0.000         
+  smap           429    0.0063       0.3333       0.028         
+  smd            168    0.0536       0.2949       0.679         
+  unsw_nb15      6      0.9872       0.9872       1.000         
+
+  Any dataset with a nonzero mean cal rate has a CONTAMINATED calibration set:
+  tau is inflated, every downstream FPR is optimistic. CICIDS/UNSW are the suspects.
+
+wrote results/phase3b/PHASE3B1b_{rows_calLast,rows_calFirst,meta}.json
