@@ -1,0 +1,22 @@
+{
+  "dataset": "cicids2017",
+  "unit_id": "Thursday-WorkingHours-Morning-WebAttacks",
+  "method": "DIF",
+  "window": 60,
+  "stride": 30,
+  "cal_frac": 0.2,
+  "n_features_raw": null,
+  "n_features_dropped": 0,
+  "dropped_feature_idx": [],
+  "n_nan_in_scores": 0,
+  "n_inf_in_scores": 0,
+  "n_distinct_cal_scores": 744,
+  "score_min": 0.22587910794572688,
+  "score_max": 0.5167222315199844,
+  "score_orientation": "normal",
+  "detector_seed": 0,
+  "detector_version": "deepod",
+  "source_run": "extended_methods_cached_phase1",
+  "config_hash": "9e7491514ac6fa8a",
+  "written_utc": "2026-08-23T14:49:44Z"
+}
