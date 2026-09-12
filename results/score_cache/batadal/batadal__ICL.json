@@ -1,0 +1,30 @@
+{
+  "dataset": "batadal",
+  "unit_id": "batadal",
+  "method": "ICL",
+  "window": 60,
+  "stride": 30,
+  "cal_frac": 0.2,
+  "n_features_raw": 43,
+  "n_features_dropped": 7,
+  "dropped_feature_idx": [
+    8,
+    11,
+    12,
+    15,
+    16,
+    23,
+    24
+  ],
+  "n_nan_in_scores": 0,
+  "n_inf_in_scores": 0,
+  "n_distinct_cal_scores": 19,
+  "score_min": 3.3737640380859375,
+  "score_max": 35.46491718292236,
+  "score_orientation": "normal",
+  "detector_seed": 0,
+  "detector_version": "deepod",
+  "source_run": "extended_methods_cached_phase1",
+  "config_hash": "cd4ee0ce44d9face",
+  "written_utc": "2026-08-22T20:35:58Z"
+}
