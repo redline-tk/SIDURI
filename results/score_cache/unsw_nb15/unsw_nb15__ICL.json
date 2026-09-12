@@ -1,0 +1,22 @@
+{
+  "dataset": "unsw_nb15",
+  "unit_id": "unsw_nb15",
+  "method": "ICL",
+  "window": 60,
+  "stride": 30,
+  "cal_frac": 0.2,
+  "n_features_raw": 39,
+  "n_features_dropped": 0,
+  "dropped_feature_idx": [],
+  "n_nan_in_scores": 0,
+  "n_inf_in_scores": 0,
+  "n_distinct_cal_scores": 286,
+  "score_min": 5.058148741722107,
+  "score_max": 151.05530548095703,
+  "score_orientation": "normal",
+  "detector_seed": 0,
+  "detector_version": "deepod",
+  "source_run": "extended_methods_cached_phase1",
+  "config_hash": "c014cc4a89374096",
+  "written_utc": "2026-08-24T04:42:25Z"
+}
